@@ -113,16 +113,22 @@ html {
   text-decoration: none;
   background-color: rgb(244, 146, 17);
 }
-.northland a {
+.northland,
+.accomodation,
+.contact a {
   text-decoration: none;
   color: black;
 }
-.northland:hover {
+.northland:hover,
+.accomodation:hover,
+.contact:hover {
   cursor: pointer;
   display: block;
   text-decoration: none;
 }
-.northland:hover a {
+.northland:hover a,
+.contact:hover a,
+.accomodation:hover a {
   text-decoration: none;
 }
 
@@ -145,6 +151,14 @@ html {
 .contact-dropdown {
   height: 80px;
   width: 250px;
+  background-color: rgb(244, 146, 17);
+}
+.contact:hover {
+  cursor: pointer;
+  display: block;
+  height: 80px;
+  width: 250px;
+  text-decoration: none;
   background-color: rgb(244, 146, 17);
 }
 
