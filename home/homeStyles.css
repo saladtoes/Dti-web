@@ -115,18 +115,22 @@ html {
 }
 .northland,
 .accomodation,
-.contact a {
+.contact-dropdown,
+.contact,
+.dropdown {
   text-decoration: none;
   color: black;
 }
 .northland:hover,
 .accomodation:hover,
+.contact-dropdown:hover,
 .contact:hover {
   cursor: pointer;
   display: block;
   text-decoration: none;
 }
 .northland:hover a,
+.contact-dropdown:hover a,
 .contact:hover a,
 .accomodation:hover a {
   text-decoration: none;
