@@ -113,11 +113,13 @@ html {
   text-decoration: none;
   background-color: rgb(244, 146, 17);
 }
+
 .northland,
 .accomodation,
 .contact-dropdown,
 .contact,
 .dropdown {
+  border-radius: 10px;
   text-decoration: none;
   color: black;
 }
@@ -169,13 +171,26 @@ html {
 .dropdown {
   position: relative;
   display: inline-block;
+  text-decoration: none;
 }
 
 .contact-content {
+  border-radius: 10px;
   display: none;
   position: absolute;
   background-color: rgb(248, 183, 98);
   min-width: 160px;
+  text-decoration: none;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.contact-content:hover {
+  border-radius: 10px;
+  display: none;
+  position: absolute;
+  background-color: rgb(248, 183, 98);
+  min-width: 160px;
+  text-decoration: none;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -194,11 +209,14 @@ html {
   height: 125px;
 }
 .contact-content a:hover {
-  background-color: #ddd;
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: rgb(253, 194, 116);
 }
 
 .dropdown:hover .contact-content {
   display: block;
+  text-decoration: none;
 }
 
 .dropdown:hover .dropbtn {
