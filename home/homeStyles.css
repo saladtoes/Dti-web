@@ -202,10 +202,10 @@ html {
   display: block;
   width: 216px;
 }
-.spacer {
+.filler-long {
   height: 300px;
 }
-.shortspacer {
+.filler-short {
   height: 125px;
 }
 .contact-content a:hover {
@@ -260,7 +260,7 @@ html {
   content: "🡣";
   position: relative;
   font-size: 35px;
-  animation: arrow  1400ms alternate-reverse infinite;
+  animation: arrow 1400ms alternate-reverse infinite;
 }
 @keyframes arrow {
   0% {
