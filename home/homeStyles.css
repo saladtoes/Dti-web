@@ -260,9 +260,9 @@ html {
   content: "🡣";
   position: relative;
   font-size: 35px;
-  animation: arrow-pulse-down 1400ms alternate-reverse infinite;
+  animation: arrow  1400ms alternate-reverse infinite;
 }
-@keyframes arrow-pulse-down {
+@keyframes arrow {
   0% {
     bottom: 40px;
     opacity: 1;
