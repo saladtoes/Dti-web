@@ -20,15 +20,14 @@ body {
   margin: 0;
 }
 
-.iconOnMainImage {
-  display: grid;
-  position: relative;
-}
+
 
 .backHomeIcon img {
   width: 100px;
   z-index: 9999;
   height: 100px;
+  display: grid;
+  position: relative;
 }
 .background-visit img {
   display: inline-block;
