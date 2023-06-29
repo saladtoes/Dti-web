@@ -20,8 +20,6 @@ body {
   margin: 0;
 }
 
-
-
 .backHomeIcon img {
   width: 100px;
   z-index: 9999;
@@ -33,4 +31,9 @@ body {
   display: inline-block;
   width: 100%;
   height: 100%;
+}
+
+.threeImages img {
+  width: 310px;
+  height: 200px;
 }
