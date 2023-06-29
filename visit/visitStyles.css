@@ -32,4 +32,15 @@ body {
   width: 100%;
   height: 100%;
 }
-
+.backHomeIcon a {
+  width: 100px;
+  z-index: 9999;
+  height: 100px;
+  display: grid;
+  position: relative;
+}
+.background-visit a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
